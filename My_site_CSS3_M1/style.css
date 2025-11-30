@@ -1,0 +1,94 @@
+/* YÊU CẦU 1: BODY - Font family, font-size */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+/* YÊU CẦU 2: HEADER - Background color */
+header {
+    background-color: #1a237e; /* Xanh đậm */
+    padding: 20px;
+    text-align: center;
+}
+
+/* YÊU CẦU 3: NAV - Background color */
+nav {
+    background-color: #283593; /* Xanh nhạt hơn header chút */
+    padding: 10px 0;
+    text-align: center; /* Căn giữa menu */
+}
+
+/* YÊU CẦU 4: MAIN - Background color, font-size */
+main {
+    background-color: #ffffff; /* Nền trắng */
+    font-size: 1rem;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto; /* Căn giữa trang web */
+    color: #333333; /* Chữ màu tối để dễ đọc */
+}
+
+/* YÊU CẦU 5: FOOTER - Background color */
+footer {
+    background-color: #000000; /* Màu đen */
+    color: #ffffff; /* Chữ trắng */
+    text-align: center;
+    padding: 15px;
+    margin-top: 20px;
+}
+
+/* YÊU CẦU 6: LI - Display, Width (Biến danh sách thành menu ngang) */
+nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block; /* Quan trọng: Xếp ngang hàng */
+    width: 150px;          /* Quan trọng: Độ rộng cố định */
+    list-style: none;
+}
+
+/* Trang trí thêm cho link trong menu để đẹp hơn */
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff; /* Chữ trắng đảm bảo tương phản */
+    font-weight: bold;
+    display: block; /* Để bấm được toàn bộ vùng width */
+}
+
+/* YÊU CẦU 7: H1 - Text-align, Font-family, Color */
+h1 {
+    text-align: center;
+    font-family: 'Verdana', sans-serif;
+    color: #ffffff; /* Màu trắng nổi trên nền xanh của header */
+    margin: 0;
+}
+
+/* YÊU CẦU 8: P - Line-height */
+p {
+    line-height: 1.6; /* Khoảng cách dòng thoáng */
+    margin-bottom: 15px;
+}
+
+/* Trang trí thêm cho ảnh (để ảnh không bị to quá khổ) */
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Trang trí tiêu đề h2, h3 cho đẹp (không bắt buộc nhưng nên có) */
+h2 {
+    color: #1565c0;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+h3 {
+    color: #c62828; /* Màu đỏ cho tên xe */
+    margin-top: 20px;
+}
